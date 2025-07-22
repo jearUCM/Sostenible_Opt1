@@ -1,6 +1,22 @@
 /*******************************/
+/**** Global variables *********/
+/*******************************/
+
+:root {
+  /* First color */
+  --firts-color-greenlight: #8dc04e;
+
+  /* Second color */
+  --second-color-bluelight: #45a8ad;
+
+  /* Third color */
+  --third-color-greendark: #004e54;
+}
+
+/*******************************/
 /********* General CSS *********/
 /*******************************/
+
 body {
   color: #666666;
   background: #dddddd;
@@ -293,7 +309,7 @@ a:focus {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.3);
+  /* background: rgba(0, 0, 0, 0.3); */
   z-index: 1;
 }
 
@@ -505,12 +521,12 @@ a:focus {
 }
 
 .feature .col-md-12 {
-  background: #030f27;
+  background: var(--third-color-greendark);
 }
 
 .feature .col-md-12:nth-child(2n) {
   color: #030f27;
-  background: #fdbe33;
+  background: var(--firts-color-greenlight);
 }
 
 .feature .feature-item {
@@ -572,14 +588,16 @@ a:focus {
 
 .feature .feature-text h3 {
   margin: 0 0 10px 0;
-  color: #fdbe33;
+  /* color: #fdbe33; */
+  color: #ffffff;
   font-size: 25px;
   font-weight: 600;
 }
 
 .feature .feature-text p {
   margin: 0;
-  color: #fdbe33;
+  /* color: #fdbe33; */
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
 }
