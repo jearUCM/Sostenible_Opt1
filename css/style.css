@@ -110,6 +110,14 @@ a:focus {
   padding: 15px 0;
   text-align: left;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.top-bar .logo_sostenible img {
+  height: 90px !important;
+  width: 70px !important;
+  margin-right: 15px !important;
 }
 
 .top-bar .logo h1 {
@@ -128,7 +136,8 @@ a:focus {
 .top-bar .top-bar-item {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
+  justify-content: left !important;
 }
 
 .top-bar .top-bar-icon {
@@ -717,12 +726,14 @@ a:focus {
 
 .fact .fact-left {
   color: #fdbe33;
-  background: #030f27;
+  /* background: #030f27; */
+  background: var(--second-color-bluelight);
 }
 
 .fact .fact-right {
   color: #030f27;
-  background: #fdbe33;
+  /* background: #fdbe33; */
+  background: var(--second-color-bluelight);
 }
 
 .fact .fact-left h2 {
@@ -782,7 +793,8 @@ a:focus {
   display: flex;
   align-items: center;
   height: 60px;
-  background: #030f27;
+  /* background: #030f27; */
+  background: var(--third-color-greendark);
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -794,7 +806,8 @@ a:focus {
   width: calc(100% - 60px);
   font-size: 20px;
   font-weight: 700;
-  color: #fdbe33;
+  /* color: #fdbe33; */
+  color: #ffffff;
   text-align: left;
   overflow: hidden;
   white-space: nowrap;
@@ -812,7 +825,8 @@ a:focus {
   line-height: 60px;
   font-weight: 100;
   color: #030f27;
-  background: #fdbe33;
+  /* background: #fdbe33; */
+  background: var(--firts-color-greenlight);
   border-radius: 0;
   transition: 0.3s;
 }
@@ -969,14 +983,16 @@ a:focus {
   position: relative;
   padding: 25px 15px;
   text-align: center;
-  background: #030f27;
+  /* background: #030f27; */
+  background: var(--firts-color-greenlight);
   transition: 0.5s;
 }
 
 .team .team-text h2 {
   font-size: 20px;
   font-weight: 600;
-  color: #fdbe33;
+  /* color: #fdbe33; */
+  color: #000000;
   transition: 0.5s;
 }
 
